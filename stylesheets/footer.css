@@ -1,0 +1,40 @@
+footer{
+  background-color: black;
+  height: 40vh;
+  position: relative;
+}
+footer h1{
+  font-size: 40px;
+  color: white;
+  padding: 30px 0 20px 20px;
+}
+footer address{
+  color: white;
+  line-height: 2;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+footer a{
+  position: absolute;
+  right: 6%;
+  text-decoration: none;
+  color: rgb(81, 25, 25);
+  box-shadow: 1px 1px gray ;
+}
+.github{
+  top: 100px;
+}
+.linkedin{
+  top: 130px;
+}
+@media (max-width:768px) {
+  footer a{
+    left: 6%;
+  }
+  .github{
+    top: 200px;
+  }
+  .linkedin{
+    top: 230px;
+  }
+}
